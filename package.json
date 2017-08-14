@@ -1,0 +1,20 @@
+{
+  "name": "pizza-api",
+  "version": "1.0.1",
+  "description": "",
+  "scripts": {
+    "create": "claudia create --region eu-central-1 --api-module api",
+    "update": "claudia update --cache-api-config apiConfig --no-optional-dependencies"
+  },
+  "main": "api.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "claudia": "^2.14.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.95.0",
+    "uuid": "^3.1.0",
+    "claudia-api-builder": "^2.5.1"
+  }
+}
